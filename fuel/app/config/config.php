@@ -24,7 +24,7 @@ return array(
 	 *
 	 * Set this to null to have it automatically detected.
 	 */
-	// 'base_url'  => null,
+	 //'base_url'  => null,
 
 	/**
 	 * url_suffix - Any suffix that needs to be added to
@@ -35,16 +35,16 @@ return array(
 	 *
 	 * Set this to an empty string if no suffix is used
 	 */
-	// 'url_suffix'  => '',
+	 //'url_suffix'  => '',
 
 	/**
 	 * index_file - The name of the main bootstrap file.
 	 *
 	 * Set this to 'index.php if you don't use URL rewriting
 	 */
-	// 'index_file' => false,
+	 //'index_file' => false,
 
-	// 'profiling'  => false,
+	 'profiling'  => false,
 
 	/**
 	 * Default location for the file cache
@@ -257,7 +257,7 @@ return array(
 	/**************************************************************************/
 	/* Always Load                                                            */
 	/**************************************************************************/
-	// 'always_load'  => array(
+	 'always_load'  => array(
 
 		/**
 		 * These packages are loaded on Fuel's startup.
@@ -270,9 +270,9 @@ return array(
 		 *     array('auth'	=> PKGPATH.'auth/')
 		 * );
 		 */
-		// 'packages'  => array(
-		// 	//'orm',
-		// ),
+		 'packages'  => array(
+		 	'orm',
+		 ),
 
 		/**
 		 * These modules are always loaded on Fuel's startup. You can specify them
@@ -308,6 +308,6 @@ return array(
 		 * If you don't want the lang in a group use null as groupname.
 		 */
 		// 'language'  => array(),
-	// ),
+	 ),
 
 );
