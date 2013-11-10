@@ -12,7 +12,8 @@
 	
 	</head>
 <body>
-		<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+		<!--
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container" style="color:#000;">
         <div class="navbar-header">
@@ -23,10 +24,10 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">Next Hot Producer</a>
-        </div>
+        </div> -->
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <!--  <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">The Show</a></li>
@@ -36,22 +37,24 @@
             <li><a href="contact.html">Calendar</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
+     <!-- </div><!-- /.container -->
+   <!-- </nav>
 		</header>
+-->
 		<!-- Side Menu -->
-   <!-- <a id="menu-toggle" href="#" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
+    <a id="menu-toggle" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><a href="http://startbootstrap.com">Next Hot Producer</a></li>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="sidebar-brand"><a href="#">Next Hot Producer</a></li>
+        <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">The Show</a></li>
+            <li><a href="blog.html">What's hot</a></li>
+            <li><a href="contact.html">Compete</a></li>
+            <li><a href="contact.html">Music</a></li>
+            <li><a href="contact.html">Calendar</a></li>
       </ul>
-    </div> -->
+    </div>
     <!-- /Side Menu --> 
     
     <!-- Full Page Image Header Area -->
@@ -59,7 +62,14 @@
       <div class="vert-text">
         <h1>Next Hot Producer</h1>
         <h3>America's Next Hot Music Producer</h3>
-        <a href="#about" class="btn btn-default btn-lg">Find Out More</a>
+        
+        <!-- <a href="#about" class="btn btn-default btn-lg">Find Out More</a> -->
+        <div class="container"><div class="row">
+        <div class="col-md-12 text-center">
+        <!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
+        <img class="img-responsive img-rounded" src="http://placehold.it/1200x400">
+        </div></div>
+        </div>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -68,8 +78,8 @@
     <div id="about" class="intro">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <h2>Raggae inna Trap House</h2>
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Reggae inna Trap House</h2>
             <p class="lead">Lights,Camera, Action You’re ON!!!!!!! America’s Next Hot Music Producer will be airing live in New York City on January 16th @ the legendary SOB’s. Come check out 12 of NYC’s hottest producers compete to see who will be crowned “Americas Next Hot Music Producer” by sampling and remixing music from your favorite reggae hits...  <a target="_blank" href="http://join.deathtothestockphoto.com/">Have them click here to go to the event detail page</a>.</p>
 			<a href="#about" class="btn btn-default btn-lg">&nbsp;&nbsp;I'm Going&nbsp;&nbsp;</a>
 			<a href="#about" class="btn btn-default btn-lg">&nbsp;&nbsp;I might go&nbsp;&nbsp;</a>
@@ -150,13 +160,13 @@
         <div class="col-md-4 portfolio-item">
           <a href="#project-link" style="overflow:hidden;"><img class="img-responsive img-rounded" src="/assets/img/harry-fraud-456.jpg"></a>
           <h3><a href="#project-link">Harry Fraud</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          <p>Ennui bespoke artisan pour-over fixie hella.  Direct trade  sriracha 3 wolf moon, readymade put a bird on it </p>
         </div>
 
         <div class="col-md-4 portfolio-item">
           <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/sha.jpeg"></a>
           <h3><a href="#project-link">Lady Sha</a></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+          <p>Cillum distillery pickled selfies, readymade Portland mixtape consectetur kogi. YOLO</p>
         </div>
 
       </div>
@@ -170,8 +180,8 @@
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
             <h3>The buttons below are impossible to resist.</h3>
-            <a href="#" class="btn btn-lg btn-default">Click Me!</a>
-            <a href="#" class="btn btn-lg btn-primary">Look at Me!</a>
+            <a href="#" class="btn btn-lg btn-default">I might go!</a>
+            <a href="#" class="btn btn-lg btn-primary">I'm going!</a>
           </div>
         </div>
       </div>
@@ -215,38 +225,12 @@
 			</p>
 		</footer>
 	</div>
-	<script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
+	<?php echo Asset::js(array(
+		'jquery.js',
+		'bootstrap.js',
+		'nhp.js'
+	)); ?>
+	
 	<!-- Custom JavaScript for the Side Menu and Smooth Scrolling - Put in a custom JavaScript file to clean this up -->
-    <script>
-        $("#menu-close").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#sidebar-wrapper").toggleClass("active");
-        });
-    </script>
-    <script>
-      $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-            || location.hostname == this.hostname) {
-
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-            if (target.length) {
-              $('html,body').animate({
-                scrollTop: target.offset().top
-              }, 1000);
-              return false;
-            }
-          }
-        });
-      });
-    </script>
-</body>
+    </body>
 </html>
