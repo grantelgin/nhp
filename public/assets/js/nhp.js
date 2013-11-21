@@ -1,3 +1,5 @@
+nhp = new Object();
+
 
 $(document).ready(function () {
         $("#menu-close").click(function(e) {
@@ -26,4 +28,19 @@ $(document).ready(function () {
           }
         });
       });
+   $('#fanBtnContainer').hover(function() {
+   alert('hover');
+		   $('#h4_FanButtons').hide();
+		   $('#DIV_FanButtons').show();
+	   }, function () {
+		   $('#DIV_FanButtons').hide();
+		   $('#h4_FanButtons').show();
+	   
+
    });
+   
+   
+   nhp.ShowButtons = function() {
+	   	   
+	   
+   }
