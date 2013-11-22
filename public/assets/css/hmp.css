@@ -114,7 +114,7 @@ a.hot {
 }
 
 .hotOrange {
-	color:#c23520;
+	background-color:#c23520;
 }
 
 
@@ -131,13 +131,17 @@ a.hot {
 .pageBar {
 	background-color: #fecb00; 
 	/*background: #c23520; */
-	white-space: nowrap;
-	}
+	 white-space: nowrap;
+	} 
+	
 	
 	.hmpTop {
 		margin-top:50px;
 	}
 
+.hmpFaq {
+	margin-bottom:20px;
+}
 header.secondary {
 -moz-box-shadow: 0px 2px 16px -4px #666;
 -o-box-shadow: 0px 2px 16px -4px #666;

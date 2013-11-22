@@ -39,8 +39,17 @@ $(document).ready(function () {
 
    });
    
+   $('[name="rulePanel"]').hover(function(){
+	$(this).removeClass('panel-default').addClass('panel-primary');   
+   }, function (){
+	   $(this).removeClass('panel-primary').addClass('panel-default'); 
+   });
+   
+   }); //end of docReady
    
    nhp.ShowButtons = function() {
 	   	   
 	   
    }
+   
+   

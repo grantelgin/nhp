@@ -98,5 +98,11 @@
 -->
 		</footer>
 	</div>
+	<?php echo Asset::js(array(
+		'jquery.js',
+		'bootstrap.js',
+		'nhp.js'
+	)); ?>
+
 </body>
 </html>
