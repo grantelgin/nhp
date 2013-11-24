@@ -23,7 +23,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href=""><img src="/assets/img/HMPBlack.png" alt="HMPBlack" height="40"></a>
+          <a class="navbar-brand" href=""><img src="/assets/img/HMPBlack.png" alt="HMPBlack" height="30"></a>
         </div> 
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -31,9 +31,9 @@
           <ul class="nav navbar-nav hmp-nav">
             <li><?php echo Html::anchor('../', 'Home'); ?></li>
             <li><?php echo Html::anchor('events/view/1', 'The Show'); ?></li>
-            <li><?php echo Html::anchor('events/', 'What\'s Hot'); ?></li>
+            <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
             <li><?php echo Html::anchor('eventProducers/', 'Compete'); ?></li>
-            <li><?php echo Html::anchor('events/', 'Music'); ?></li>
+            <li><?php echo Html::anchor('../#topFive', 'Music'); ?></li>
             <li><?php echo Html::anchor('events/', 'Calendar'); ?></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -95,7 +95,7 @@
     <!-- /Intro -->
     
     <!-- Services -->
-    <div id="services" class="services">
+    <div id="whatshot" class="services">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -105,17 +105,17 @@
         </div>
         <div class="row">
           <div class="col-md-3 text-center">
-            <div class="service-item">
+            <div class="service-item"><a href="../#topFive" style="color:#fff;">
               <i class="service-icon fa fa-volume-up"></i>
               <h4>The Beat Tapes</h4>
-              <p>Instrumental Compilation. Submit your own beats to share</p>
+              <p>Instrumental Compilation. Submit your own beats to share</p></a>
             </div>
           </div>
           <div class="col-md-3 text-center">
-            <div class="service-item">
+            <div class="service-item"><a href="../#hotProducers" style="color:#fff;">
               <i class="service-icon glyphicon glyphicon-fire"></i>
               <h4>Producer on Fire</h4>
-              <p>Link to producer profiles</p>
+              <p>Link to producer profiles</p></a>
             </div>
           </div>
           <div class="col-md-3 text-center">
@@ -138,7 +138,7 @@
     <!-- /Services -->
     
     <!-- Callout -->
-    <div class="callout">
+    <div id="topFive" class="callout">
       <div class="vert-text">
         <h1>Top 5 beats of the week</h1>
       </div>
@@ -146,7 +146,7 @@
     <!-- /Callout -->
 
     <!-- Portfolio -->
-    <div id="portfolio" class="portfolio">
+    <div id="hotProducers" class="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -184,9 +184,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
-            <h3>The buttons below are impossible to resist.</h3>
-            <a href="#" class="btn btn-lg btn-default">I might go!</a>
-            <a href="#" class="btn btn-lg btn-primary">I'm going!</a>
+            <h3>Sign up for updates</h3>
+            <div class="input-group input-group-lg">
+  <span class="input-group-addon" style="color:#000;">@</span>
+  <input type="text" class="form-control" placeholder="Email">
+  <!--
+<span class="input-group-btn">
+        <button class="btn btn-default" type="button">Sign me up</button>
+      </span>
+-->
+</div>
+
           </div>
         </div>
       </div>

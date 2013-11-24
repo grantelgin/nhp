@@ -106,6 +106,10 @@ body {
 
 /* HMP Specific classes */
 
+.hmpLogo {
+	  height:40px;
+  }
+
 a.hot {
 	color: #c23520;
 }
@@ -312,5 +316,25 @@ i.scroll:hover {
   .map {
 	height: 75%;
   }
+  
+  .hmpLogo {
+	  height:30px;
+  }
+  
+  header.secondary {
+-moz-box-shadow: 0px 2px 16px -4px #666;
+-o-box-shadow: 0px 2px 16px -4px #666;
+-webkit-box-shadow: 0px 2px 16px -4px #666;
+box-shadow: 0px 2px 16px -4px #666;
+position: fixed;
+left: 0;
+right: 0;
+z-index: 99;
+top: 50px;
+height: 47.5px;
+font-size: 37.5px;
+line-height: 37.5px;
+}
+
 
 }

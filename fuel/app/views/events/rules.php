@@ -15,7 +15,7 @@
                     </div>
 
                     <div class="panel-body">
-                        The Registration fee is $200 per participant. Each participant receives 20 tickets for their guest.
+                        The registration fee is $50 per contestant. Each contestant receives five tickets for their guests.
                     </div>
                 </div><br>
 
@@ -45,7 +45,7 @@
                     </div>
 
                     <div class="panel-body">
-                        During each round the participant has access to the microphone and can use it as he chooses, to sing, rap, beat-boxing, or play an instrument. No other artist can perform to the beat.
+                        During each round the participant has access to the microphone and can use it as he chooses to sing, rap, beat-box, or play an instrument. No other artist can perform to the beat.
                     </div>
                 </div><br>
 
@@ -55,7 +55,7 @@
                     </div>
 
                     <div class="panel-body">
-                        The first round is 90 seconds(two 45 second beats can be played). The second and third rounds are 60 seconds each.
+                        The first round is 90 seconds (two 45 second beats can be played). The second and third rounds are 60 seconds each.
                     </div>
                 </div><br>
 
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="panel-body">
-                        All music must be submitted on CD or flash drive at check-in. Please bring a back up copy and have both labeled with your name!
+                        All music must be submitted on CD or flash drive at check-in. Please bring a backup copy and label both with your name!
                     </div>
                 </div><br>
 
@@ -85,7 +85,7 @@
                     </div>
 
                     <div class="panel-body">
-                        There is a panel of three judges. Rounds 1 an 2 are decided by majority vote. During round 3 the judges will choose the top two producers and the crowd’s cheers determine who is crowned America’s Next Hot Music Producer!
+                        There is a panel of three judges. Rounds 1 and 2 are decided by majority vote. During round 3 the judges will choose the top two producers and the crowd’s cheers determine who is crowned the Next Hot Music Producer!
                     </div>
                 </div>
                 <br/>
@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="panel-body">
-						Each participant must be willing to sign a release to have their image and music appear on America’s Next Hot Music Producer©. You retain 100% ownership of your music.
+						Each participant must be willing to sign a release to have their image and music appear on Next Hot Music Producer©. You retain 100% ownership of your music.
 					</div>
                 </div>
                 <br/>
@@ -115,7 +115,7 @@
                     </div>
 
                     <div class="panel-body">
-						Each participant must submit a photo and two beats to music@hotmusicproducer.com Each producer must have 5 beats for the show.
+						Each participant must submit a photo and two beats to <a href="mailto:mike@hotmusicproducer.com">mike@hotmusicproducer.com</a>. Each producer must have 5 beats for the show.
 					</div>
                 </div>
                 <br/>
@@ -125,17 +125,7 @@
                     </div>
 
                     <div class="panel-body">
-						This event will be held at SOB’s, located at 204 Varick St.NY, NY 10014 on September 12th. The show begins at 7:30pm. Entrance to the venue is at the discretion of SOB’and its agents.
-					</div>
-                </div>
-                <br/>
-                <div name="rulePanel" class="panel panel-default">
-                    <div class="panel-heading">
-                        <h4 class="panel-title">Check-in before event</h4>
-                    </div>
-
-                    <div class="panel-body">
-						Check-in is at 6:00pm on the day of the event. You will be disqualified and forfeit your entry fee if you arrive after 7:00pm.
+						This event will be held at the Middle East Upstairs, located at 472-480 Massachusetts Ave in Cambridge,  on March 6th. The show begins at 6:00 pm. Entrance to the venue is at the discretion of the Middle East and its agents.
 					</div>
                 </div>
                 <br/>
@@ -149,6 +139,14 @@
 					</div>
                 </div>
                 <br/>
+              
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Call 662.588.4537 for more info</h2>
+            <hr>
+          </div>
+        </div>
+        
             </div>
         </div>
     </div>

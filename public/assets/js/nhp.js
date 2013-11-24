@@ -29,7 +29,6 @@ $(document).ready(function () {
         });
       });
    $('#fanBtnContainer').hover(function() {
-   alert('hover');
 		   $('#h4_FanButtons').hide();
 		   $('#DIV_FanButtons').show();
 	   }, function () {

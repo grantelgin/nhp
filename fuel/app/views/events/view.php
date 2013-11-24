@@ -29,13 +29,15 @@
 				<div class="col-md-8">
 				<span style="font-size:30px;"><?php echo $event->name; ?></span>
 				</div>
-				<div id="fanBtnContainer" class="col-md-4" style="margin-top:-3px;">
+				<!--
+<div id="fanBtnContainer" class="col-md-4" style="margin-top:-3px;">
 					<h4 id="h4_FanButtons" style="display:none;">Are you going?</h4>
 					<div id="DIV_FanButtons" style="">
 						<a href="#about" class="btn btn-default btn-lg">&nbsp;&nbsp;I'm Going&nbsp;&nbsp;</a>
 						<a href="#about" class="btn btn-default btn-lg" style="margin-left:40px;">&nbsp;&nbsp;I might go&nbsp;&nbsp;</a>
 					</div>
 				</div>
+-->
 			</div>
 			</div>
 			
@@ -44,33 +46,43 @@
 
       <div class="container">
       	<div class="row">
-        	<div class="col-lg-11 col-lg-offset-1 col-md-12 text-center">
+        	<div class="col-lg-8 col-md-8 text-center">
 				<!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
 				<img class="img-responsive img-rounded" src="http://placehold.it/900x300">
+			</div>
+			<div class="col-lg-3 col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+				<strong>Want to compete?</strong>
+				<br/>Sign up here
+				<br/>Read rules first
+				<div style="margin-top:30px;"><strong>Want to see the show?</strong>
+				<br/>Sign up for updates
+				</div>
 			</div>
 		</div>
      </div>
      <div class="row">
-	     <div class="col-lg-8 col-sm-8">
-            <h2>&nbsp;</h2>
+	     <div class="col-lg-8 col-sm-8"><br/><br/>
+            <strong><?php echo $event->name; ?></strong><br/>
             <p><?php echo $event->desc; ?></p>
-			<div class="col-md-offset-2" style="display:none;">
+			<!--
+<div class="col-md-offset-2" style="display:none;">
 				<a href="#about" class="btn btn-default btn-lg">&nbsp;&nbsp;I'm Going&nbsp;&nbsp;</a>
 				<a href="#about" class="btn btn-default btn-lg" style="margin-left:40px;">&nbsp;&nbsp;I might go&nbsp;&nbsp;</a>
 			</div>
+-->
           </div>
-          <div class="col-lg-2 col-sm-3 col-lg-offset-2 col-md-offset-1 col-sm-offset-1" style="margin-top:10px;">
-          	<a href="https://maps.google.com/maps?q=SOB's,+Varick+Street,+New+York,+NY&hl=en&sll=42.37839,-71.11291&sspn=0.086356,0.161705&oq=sobs+new&t=m&z=16&iwloc=A" target="_blank"><i class="fa fa-map-marker" style="float:left; font-size:2em;padding-top:5px;"></i><h4 style="float:left;margin-left:5px;">Where</h4><div style="clear:both;"></div>
+          <div class="col-lg-3 col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1" style="margin-top:10px;">
+          	<a href="http://maps.apple.com/?q=472+massachusetts+ave+cambridge+ma+02139" target="_blank"><i class="fa fa-map-marker" style="float:left; font-size:2em;padding-top:5px;"></i><h4 style="float:left;margin-left:5px;">Where</h4><div style="clear:both;"></div>
           	</a>
 		  	<address>
-		  		<strong>SOB's</strong>
-		  	<br/>204 Varick St.
-		  	<br/>NY, NY 10014
+		  		<strong>Middle East Upstairs</strong>
+		  	<br/>472 Massachusetts Ave
+		  	<br/>Cambridge, MA 02139
 		  	<br/>
-		  	<br/><strong>Doors:  7pm</strong>
+		  	<br/><strong>Doors:  6pm</strong>
 		  	</address>
-		  	<address><abbr title="Phone">P: </abbr> (123) 456-7890
-		  	<br/><abbr title="Email">E: </abbr> <a class="hot" href="mailto:grantelgin@gmail.com">Email us</a>
+		  	<address><abbr title="Phone">P: </abbr> (662) 588 - 4537
+		  	<br/><abbr title="Email">E: </abbr> <a href="mailto:mike@hotmusicpro.com">mike@hotmusicpro.com</a>
 		  	</address> 
           </div>
         </div>

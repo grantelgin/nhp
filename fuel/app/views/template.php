@@ -28,18 +28,18 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
+         <!-- <ul class="nav navbar-nav">
 	          <li><a href=""><i class="fa fa-users" style="color:#fff;"></i>Attend</a></li>
 	          <li><a href="">Compete</a></li>
 	          <li><a href="">Support</a></li>
-          </ul>
-          <a class="navbar-brand" href=""><img src="/assets/img/HMPBlack.png" alt="HMPBlack" height="40"></a>
+          </ul> -->
+          <a class="navbar-brand" href="../"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
           <ul class="nav navbar-nav hmp-nav">
             <li><?php echo Html::anchor('../', 'Home'); ?></li>
             <li><?php echo Html::anchor('events/view/1', 'The Show'); ?></li>
-            <li><?php echo Html::anchor('events/', 'What\'s Hot'); ?></li>
-            <li><?php echo Html::anchor('events/', 'Compete'); ?></li>
-            <li><?php echo Html::anchor('events/', 'Music'); ?></li>
+            <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
+            <li><?php echo Html::anchor('eventproducers/', 'Compete'); ?></li>
+            <li><?php echo Html::anchor('../#topFive', 'Music'); ?></li>
             <li><?php echo Html::anchor('events/', 'Calendar'); ?></li>
           </ul>
         </div><!-- /.navbar-collapse -->
@@ -53,13 +53,12 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><a href="#">Next Hot Producer</a></li>
-        <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">The Show</a></li>
-            <li><a href="blog.html">What's hot</a></li>
-            <li><a href="contact.html">Compete</a></li>
-            <li><a href="contact.html">Music</a></li>
-            <li><a href="contact.html">Calendar</a></li>
+        <li><?php echo Html::anchor('../', 'Home'); ?></li>
+            <li><?php echo Html::anchor('events/view/1', 'The Show'); ?></li>
+            <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
+            <li><?php echo Html::anchor('eventproducers/', 'Compete'); ?></li>
+            <li><?php echo Html::anchor('../#topFive', 'Music'); ?></li>
+            <li><?php echo Html::anchor('events/', 'Calendar'); ?></li>
       </ul>
     </div>
     <!-- /Side Menu --> 
