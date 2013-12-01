@@ -1,0 +1,7 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+ERROR - 2013-12-01 12:14:13 --> Notice - Undefined variable: title in /Users/grantelgin/Sites/nhp/fuel/app/views/welcome/index.php on line 173
+ERROR - 2013-12-01 12:27:02 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'fan_id' cannot be null with query: "INSERT INTO `fans` (`fan_id`, `fanemail`, `fanfirstname`, `fanlastname`, `fanphone`, `fanaddress`, `fangraphic_src`, `created_at`, `updated_at`) VALUES (null, 'grant@grantelgin.com', null, null, null, null, null, 1385918818.000000, 1385918818.000000)" in /Users/grantelgin/Sites/nhp/fuel/core/classes/database/pdo/connection.php on line 237
+ERROR - 2013-12-01 13:01:07 --> Notice - Undefined variable: fan in /Users/grantelgin/Sites/nhp/fuel/app/classes/controller/welcome.php on line 57
+ERROR - 2013-12-01 13:09:18 --> Error - The requested view could not be found: ../welcome/index in /Users/grantelgin/Sites/nhp/fuel/core/classes/view.php on line 388
+ERROR - 2013-12-01 13:49:28 --> 23000 - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'producer_id' cannot be null with query: "INSERT INTO `producers` (`producer_id`, `name`, `email`, `phone`, `desc`, `address`, `graphic_src`, `created_at`, `updated_at`) VALUES (null, null, 'go@grant.om', null, null, null, null, 1385923764.000000, 1385923764.000000)" in /Users/grantelgin/Sites/nhp/fuel/core/classes/database/pdo/connection.php on line 237

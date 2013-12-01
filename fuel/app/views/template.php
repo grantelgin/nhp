@@ -12,52 +12,39 @@
 	
 	</head>
 <body>
-		
 <header class="navbar navbar-inverse navbar-fixed-top" role="banner">
 		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container" style="color:#000;">
-        <div class="navbar-header">
+        <div class="navbar-header" >
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- <a class="navbar-brand" href=""><img src="/assets/img/HMPBlack.png" alt="HMPBlack" height="50"></a> -->
+          <a class="navbar-brand" href="../"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
         </div> 
 
         <!-- Collect the nav links, forms, and other content for toggling -->
        <div class="collapse navbar-collapse navbar-ex1-collapse">
-         <!-- <ul class="nav navbar-nav">
-	          <li><a href=""><i class="fa fa-users" style="color:#fff;"></i>Attend</a></li>
-	          <li><a href="">Compete</a></li>
-	          <li><a href="">Support</a></li>
-          </ul> -->
-          <a class="navbar-brand" href="/"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
           <ul class="nav navbar-nav hmp-nav">
             <li><?php echo Html::anchor('../', 'Home'); ?></li>
             <li><?php echo Html::anchor('events/view/1', 'The Next Show'); ?></li>
             <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
-            <li><?php echo Html::anchor('eventproducers/', 'Compete'); ?></li>
+            <li><?php echo Html::anchor('eventProducers/', 'Compete'); ?></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
   </nav>
+		
 		</header>
+		
 		
 
 		<!-- Side Menu -->
     <a id="menu-toggle" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
     <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li><?php echo Html::anchor('/', 'Home'); ?></li>
-            <li><?php echo Html::anchor('events/view/1', 'The Next Show'); ?></li>
-            <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
-            <li><?php echo Html::anchor('eventproducers/', 'Compete'); ?></li>
-
-      </ul>
-    </div>
+          </div>
     <!-- /Side Menu --> 
 
 	<div class="container">

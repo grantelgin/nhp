@@ -45,15 +45,7 @@
 		<!-- Side Menu -->
     <a id="menu-toggle" class="btn btn-primary btn-lg toggle"><i class="fa fa-reorder"></i></a>
     <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-        <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand" ><a href="#">Next Hot Producer</a></li>
-        <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">The Next Show</a></li>
-            <li><a href="blog.html">What's hot</a></li>
-            <li><a href="contact.html">Compete</a></li>
-      </ul>
-    </div>
+          </div>
     <!-- /Side Menu --> 
 
 <?php if (Session::get_flash('success')): ?>
