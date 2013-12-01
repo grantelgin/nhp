@@ -33,14 +33,12 @@
 	          <li><a href="">Compete</a></li>
 	          <li><a href="">Support</a></li>
           </ul> -->
-          <a class="navbar-brand" href="../"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
+          <a class="navbar-brand" href="/"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
           <ul class="nav navbar-nav hmp-nav">
             <li><?php echo Html::anchor('../', 'Home'); ?></li>
-            <li><?php echo Html::anchor('events/view/1', 'The Show'); ?></li>
+            <li><?php echo Html::anchor('events/view/1', 'The Next Show'); ?></li>
             <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
             <li><?php echo Html::anchor('eventproducers/', 'Compete'); ?></li>
-            <li><?php echo Html::anchor('../#topFive', 'Music'); ?></li>
-            <li><?php echo Html::anchor('events/', 'Calendar'); ?></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -53,12 +51,11 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li><?php echo Html::anchor('../', 'Home'); ?></li>
-            <li><?php echo Html::anchor('events/view/1', 'The Show'); ?></li>
+        <li><?php echo Html::anchor('/', 'Home'); ?></li>
+            <li><?php echo Html::anchor('events/view/1', 'The Next Show'); ?></li>
             <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
             <li><?php echo Html::anchor('eventproducers/', 'Compete'); ?></li>
-            <li><?php echo Html::anchor('../#topFive', 'Music'); ?></li>
-            <li><?php echo Html::anchor('events/', 'Calendar'); ?></li>
+
       </ul>
     </div>
     <!-- /Side Menu --> 
@@ -87,16 +84,36 @@
 		<div class="col-md-12">
 <?php echo $content; ?>
 		</div>
-		<footer>
-			<!--
-<p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
-			<p>
-				<a href="http://fuelphp.com">FuelPHP</a> is released under the MIT license.<br>
-				<small>Version: <?php echo e(Fuel::VERSION); ?></small>
-			</p>
+		
+		 <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <ul class="list-inline">
+              <li><a href="https://www.facebook.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
+              <li><a href="https://twitter.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="twitter"><i class="fa fa-twitter fa-3x" ></i></a></li>
+              <li><a href="http://instagram.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="instagram"><i class="fa fa-instagram fa-3x" ></i></a></li>
+            </ul>
+            <!--
+<div class="top-scroll">
+              <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
+            </div>
 -->
-		</footer>
-	</div>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <p>Copyright &copy; HotMusicPro 2013 </p>
+          </div>
+            <div class="col-lg-offset-5 col-lg-4">
+            <?php echo Html::anchor('../', 'Home'); ?> &middot; <?php echo Html::anchor('events/view/1', 'The Next Show'); ?> &middot; <?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?> &middot; <?php echo Html::anchor('eventProducers/', 'Compete'); ?>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->	</div>
 	<?php echo Asset::js(array(
 		'jquery.js',
 		'bootstrap.js',

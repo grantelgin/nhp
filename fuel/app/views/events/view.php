@@ -48,12 +48,12 @@
       	<div class="row">
         	<div class="col-lg-8 col-md-8 text-center">
 				<!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
-				<img class="img-responsive img-rounded" src="http://placehold.it/900x300">
+				<img class="img-responsive img-rounded" src="../../assets/img/reggaeinnatrap.jpg">
 			</div>
 			<div class="col-lg-3 col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
 				<strong>Want to compete?</strong>
-				<br/>Sign up here
-				<br/>Read rules first
+				<br/><?php echo Html::anchor('eventproducers/', 'Sign up here'); ?>
+				<br/>
 				<div style="margin-top:30px;"><strong>Want to see the show?</strong>
 				<br/>Sign up for updates
 				</div>
@@ -79,7 +79,7 @@
 		  	<br/>472 Massachusetts Ave
 		  	<br/>Cambridge, MA 02139
 		  	<br/>
-		  	<br/><strong>Doors:  6pm</strong>
+		  	<br/><strong>Show:  6pm</strong>
 		  	</address>
 		  	<address><abbr title="Phone">P: </abbr> (662) 588 - 4537
 		  	<br/><abbr title="Email">E: </abbr> <a href="mailto:mike@hotmusicpro.com">mike@hotmusicpro.com</a>
@@ -101,7 +101,8 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/chase-n-cashe.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
@@ -110,7 +111,8 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
@@ -119,7 +121,8 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
@@ -128,7 +131,8 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/producer2.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
@@ -142,7 +146,8 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/producer3.jpg" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
@@ -151,7 +156,8 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/producer4.jpg" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
@@ -160,34 +166,39 @@
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <!-- <img src="/assets/img/harry-fraud-456.jpg" alt=""> -->
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 hero-feature">
+        <!--
+<div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
-            <img src="http://placehold.it/800x800" alt="">
+            <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
 
 
       </div><!-- /.row -->
       
-      <hr>
+      <!--
+<hr>
 
       <footer>
         <div class="row">
           <div class="col-lg-12">
-            <p>Copyright &copy; HotMusicPro 2013 &middot; Facebook &middot; Twitter &middot; Google+</p>
+            <p>Copyright &copy; HotMusicPro 2013 &middot; <a href="https://www.facebook.com/hotmusicpro" target="_blank">Facebook</a> &middot; <a href="https://twitter.com/hotmusicpro" target="_blank">Twitter</a> &middot; <a href="http://instagram.com/hotmusicpro" target="_blank">Instagram</a></p>
           </div>
         </div>
       </footer>
+-->
       <?php echo Asset::js(array(
 		'jquery.js',
 		'bootstrap.js',

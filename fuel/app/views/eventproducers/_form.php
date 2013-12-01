@@ -1,12 +1,14 @@
 <?php echo Form::open(array("class"=>"form-horizontal")); ?>
 
 	<fieldset>
-		<div class="form-group">
+		<!--
+<div class="form-group">
 			<?php echo Form::label('Eventproducer id', 'eventproducer_id', array('class'=>'control-label')); ?>
 
 				<?php echo Form::input('eventproducer_id', Input::post('eventproducer_id', isset($eventProducer) ? $eventProducer->eventproducer_id : ''), array('class' => 'col-md-4 form-control', 'placeholder'=>'Eventproducer id')); ?>
 
 		</div>
+-->
 		<div class="form-group">
 			<?php echo Form::label('Event id', 'event_id', array('class'=>'control-label')); ?>
 

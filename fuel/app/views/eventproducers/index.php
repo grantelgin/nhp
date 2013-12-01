@@ -1,4 +1,14 @@
 <div class="container">
+	<div class="row">
+		<div class="col-lg-6 col-lg-offset-3"><br/><br/>
+			<?php echo Html::anchor('eventproducers/create', 'Sign up to compete', array('class' => 'btn btn-success btn-lg btn-block')); ?>
+			<br/><br/>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
             <h1>The rules</h1>
@@ -7,7 +17,7 @@
         </div>
 </div>
 <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-8 col-lg-offset-2">
             <dl>
                 <dt>Registration fee</dt>
                     
@@ -134,7 +144,7 @@
 <table class="table table-striped">
 	<thead>
 		<tr>
-			<th>Eventproducer id</th>
+			<!-- <th>Eventproducer id</th> -->
 			<th>Event id</th>
 			<th>Producer id</th>
 			<th>Showonevent</th>
@@ -147,7 +157,7 @@
 	<tbody>
 <?php foreach ($eventProducers as $item): ?>		<tr>
 
-			<td><?php echo $item->eventproducer_id; ?></td>
+			<!-- <td><?php echo $item->eventproducer_id; ?></td> -->
 			<td><?php echo $item->event_id; ?></td>
 			<td><?php echo $item->producer_id; ?></td>
 			<td><?php echo $item->showonevent; ?></td>
@@ -169,6 +179,6 @@
 <p>No EventProducers.</p>
 
 <?php endif; ?><p>
-	<?php echo Html::anchor('eventproducers/create', 'Add new EventProducer', array('class' => 'btn btn-success')); ?>
+	
 
 </p>

@@ -29,7 +29,7 @@ class Model_Event extends Model
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);
-		$val->add_field('event_id', 'Event Id', 'required|valid_string[numeric]');
+		/* $val->add_field('event_id', 'Event Id', 'required|valid_string[numeric]'); */
 		$val->add_field('name', 'Name', 'required|max_length[255]');
 		$val->add_field('desc', 'Desc', 'required|max_length[10000]');
 		$val->add_field('location_id', 'Location Id', 'required|valid_string[numeric]');

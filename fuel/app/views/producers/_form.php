@@ -38,6 +38,7 @@
 
 		</div>
 		<div class="form-group">
+		<input type="image" />
 			<?php echo Form::label('Graphic src', 'graphic_src', array('class'=>'control-label')); ?>
 
 				<?php echo Form::input('graphic_src', Input::post('graphic_src', isset($producer) ? $producer->graphic_src : ''), array('class' => 'col-md-4 form-control', 'placeholder'=>'Graphic src')); ?>

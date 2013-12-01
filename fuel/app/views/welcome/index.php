@@ -23,18 +23,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href=""><img src="/assets/img/HMPBlack.png" alt="HMPBlack" height="30"></a>
+          <a class="navbar-brand" href=""><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
         </div> 
 
         <!-- Collect the nav links, forms, and other content for toggling -->
        <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav hmp-nav">
             <li><?php echo Html::anchor('../', 'Home'); ?></li>
-            <li><?php echo Html::anchor('events/view/1', 'The Show'); ?></li>
+            <li><?php echo Html::anchor('events/view/1', 'The Next Show'); ?></li>
             <li><?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?></li>
             <li><?php echo Html::anchor('eventProducers/', 'Compete'); ?></li>
-            <li><?php echo Html::anchor('../#topFive', 'Music'); ?></li>
-            <li><?php echo Html::anchor('events/', 'Calendar'); ?></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -51,11 +49,9 @@
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
         <li class="sidebar-brand" ><a href="#">Next Hot Producer</a></li>
         <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">The Show</a></li>
+            <li><a href="about.html">The Next Show</a></li>
             <li><a href="blog.html">What's hot</a></li>
             <li><a href="contact.html">Compete</a></li>
-            <li><a href="contact.html">Music</a></li>
-            <li><a href="contact.html">Calendar</a></li>
       </ul>
     </div>
     <!-- /Side Menu --> 
@@ -63,18 +59,42 @@
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="vert-text" style="padding-top:50px;">
-        <!--
-<h1>Hot Music Pro</h1>
-        <h3>America's Next Hot Music Producer</h3>
--->
-        
-        <!-- <a href="#about" class="btn btn-default btn-lg">Find Out More</a> -->
-        <div class="container"><div class="row">
-        <div class="col-md-12 text-center">
-        <!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
-        <img class="img-responsive img-rounded" src="http://placehold.it/1200x600">
-        </div></div>
+
+<div class="container">
+<div class="row">
+        <div class="col-md-12 text-center wrapper"><a href="/events/view/1">
+        <!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a>  -->
+        <img class="img-responsive img-rounded" src="../assets/img/reggaeinnatrap.jpg"></a>
+        <a href="http://www.mideastclub.com" target="_blank"><img class="melogo" src="../assets/img/MElogo.gif" height="80"></a>
+        <a href="https://www.facebook.com/higglewleaders" target="_blank"><img class="higgLogo" src="../assets/img/higgLew1.png" height="80">
+	        <p class="higgText lead" style="color:#fff;">Higg-Lew Leaders<br/><small>Empowered by vision</small></p>
+        </a>
         </div>
+        </div>
+        </div>
+
+<div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <!--
+<h4>Reggae inna trap house</h4>
+            <h2>Sponsors</h2>
+
+            <hr> -->
+          </div>
+        </div>
+        <!--
+<div class="row">
+	        <div class="col-lg-4">
+		        <img src="../assets/img/higgLew.png" alt="higgLew" width="500">
+	        </div>
+	        <div class="col-lg-offset-4 col-lg-4" style="padding-top:50px;">
+	        <i class="fa fa-video-camera" style="font-size:7em;"></i>
+	        <h2>Darren Cole Productions</h2>
+	        </div>
+        </div>
+-->
+</div>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
@@ -105,10 +125,11 @@
         </div>
         <div class="row">
           <div class="col-md-3 text-center">
-            <div class="service-item"><a href="../#topFive" style="color:#fff;">
-              <i class="service-icon fa fa-volume-up"></i>
-              <h4>The Beat Tapes</h4>
-              <p>Instrumental Compilation. Submit your own beats to share</p></a>
+            <div class="service-item"><a href="events/view/1" style="color:#fff;">
+              <!-- <i class="service-icon"><span>6</span> <span>MAR</span></i> -->
+              <i class="service-icon fa fa-calendar"></i>
+              <h4>The Next Show</h4>
+              <p>Reggae inna trap house</p></a>
             </div>
           </div>
           <div class="col-md-3 text-center">
@@ -119,13 +140,12 @@
             </div>
           </div>
           <div class="col-md-3 text-center">
-            <div class="service-item">
-              <i class="service-icon fa fa-rocket"></i>
-              <h4>Past Events</h4>
-              <p>link to past events list. </p>
+            <div class="service-item"><a href="../#topFive" style="color:#fff;">
+              <i class="service-icon fa fa-volume-up"></i>
+              <h4>The Beat Tapes</h4>
+              <p>Instrumental Compilation. Submit your own beats to share</p></a>
             </div>
-          </div>
-          <div class="col-md-3 text-center">
+          </div>          <div class="col-md-3 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-calendar"></i>
               <h4>Calendar of events coming up</h4>
@@ -180,7 +200,7 @@
     <!-- /Portfolio -->
 
     <!-- Call to Action -->
-    <div class="call-to-action">
+    <div class="call-to-action" style="background-color:#c23520;">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
@@ -211,17 +231,26 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-md-offset-3 text-center">
+          <div class="col-md-8 col-md-offset-2 text-center">
             <ul class="list-inline">
-              <li><i class="fa fa-facebook fa-3x"></i></li>
-              <li><i class="fa fa-twitter fa-3x"></i></li>
-              <li><i class="fa fa-instagram fa-3x"></i></li>
+              <li><a href="https://www.facebook.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
+              <li><a href="https://twitter.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="twitter"><i class="fa fa-twitter fa-3x" ></i></a></li>
+              <li><a href="http://instagram.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="instagram"><i class="fa fa-instagram fa-3x" ></i></a></li>
             </ul>
-            <div class="top-scroll">
+            <!--
+<div class="top-scroll">
               <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
             </div>
+-->
             <hr>
-            <p>Copyright &copy; Hot Music Pro 2013</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <p>Copyright &copy; HotMusicPro 2013 </p>
+          </div>
+            <div class="col-lg-offset-5 col-lg-4">
+            <?php echo Html::anchor('../', 'Home'); ?> &middot; <?php echo Html::anchor('events/view/1', 'The Next Show'); ?> &middot; <?php echo Html::anchor('../#whatshot', 'What\'s Hot'); ?> &middot; <?php echo Html::anchor('eventProducers/', 'Compete'); ?>
           </div>
         </div>
       </div>
@@ -229,16 +258,18 @@
     <!-- /Footer -->
     
     		
+<!--
 		<hr/>
 		<footer>
-			<!--
+
 <p class="pull-right">Page rendered in {exec_time}s using {mem_usage}mb of memory.</p>
 			<p>
 				<a href="http://fuelphp.com">FuelPHP</a> is released under the MIT license.<br>
 				<small>Version: <?php echo Fuel::VERSION; ?></small>
 			</p>
--->
+
 		</footer>
+-->
 	</div>
 	<?php echo Asset::js(array(
 		'jquery.js',

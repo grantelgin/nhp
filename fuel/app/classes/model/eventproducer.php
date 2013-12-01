@@ -5,7 +5,6 @@ class Model_EventProducer extends Model
 {
 	protected static $_properties = array(
 		'id',
-		'eventproducer_id',
 		'event_id',
 		'producer_id',
 		'showonevent',
@@ -30,7 +29,7 @@ class Model_EventProducer extends Model
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);
-		$val->add_field('eventproducer_id', 'Eventproducer Id', 'required|valid_string[numeric]');
+		/* $val->add_field('eventproducer_id', 'Eventproducer Id', 'required|valid_string[numeric]'); */
 		$val->add_field('event_id', 'Event Id', 'required|valid_string[numeric]');
 		$val->add_field('producer_id', 'Producer Id', 'required|valid_string[numeric]');
 		$val->add_field('showonevent', 'Showonevent', 'required');

@@ -44,6 +44,8 @@ $(document).ready(function () {
 	   $(this).removeClass('panel-primary').addClass('panel-default'); 
    });
    
+   $('.lnkSocial').tooltip();
+   
    }); //end of docReady
    
    nhp.ShowButtons = function() {
