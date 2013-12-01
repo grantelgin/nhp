@@ -30,13 +30,17 @@ class Model_Producer extends Model
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);
-		$val->add_field('producer_id', 'Producer Id', 'required|valid_string[numeric]');
+		/*
+$val->add_field('producer_id', 'Producer Id', 'required|valid_string[numeric]');
 		$val->add_field('name', 'Name', 'required|max_length[255]');
+*/
 		$val->add_field('email', 'Email', 'required|valid_email|max_length[255]');
-		$val->add_field('phone', 'Phone', 'required|max_length[255]');
+		/*
+$val->add_field('phone', 'Phone', 'required|max_length[255]');
 		$val->add_field('desc', 'Desc', 'required|max_length[255]');
 		$val->add_field('address', 'Address', 'required|max_length[255]');
 		$val->add_field('graphic_src', 'Graphic Src', 'required|max_length[255]');
+*/
 
 		return $val;
 	}

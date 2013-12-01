@@ -1,47 +1,16 @@
+
 <!--
-<h2>Viewing <span class='muted'>#<?php echo $event->id; ?></span></h2>
-
-<p>
-	<strong>Event id:</strong>
-	<?php echo $event->event_id; ?></p>
-<p>
-	<strong>Name:</strong>
-	<?php echo $event->name; ?></p>
-<p>
-	<strong>Desc:</strong>
-	<?php echo $event->desc; ?></p>
-<p>
-	<strong>Location id:</strong>
-	<?php echo $event->location_id; ?></p>
-<p>
-	<strong>Eventbrite link:</strong>
-	<?php echo $event->eventbrite_link; ?></p>
-<p>
-	<strong>Graphic src:</strong>
-	<?php echo $event->graphic_src; ?></p>
-
-<?php echo Html::anchor('events/edit/'.$event->id, 'Edit'); ?> |
-<?php echo Html::anchor('events', 'Back'); ?>
--->
 <header class="pageBar secondary">
-			<div class="container" style="padding-top:5px;">
+		<div class="container" style="padding-top:5px;">
 			<div class="row">
 				<div class="col-md-8">
-				<span style="font-size:30px;"><?php echo $event->name; ?></span>
+					<span style="font-size:30px;"><?php echo $event->name; ?></span>
 				</div>
-				<!--
-<div id="fanBtnContainer" class="col-md-4" style="margin-top:-3px;">
-					<h4 id="h4_FanButtons" style="display:none;">Are you going?</h4>
-					<div id="DIV_FanButtons" style="">
-						<a href="#about" class="btn btn-default btn-lg">&nbsp;&nbsp;I'm Going&nbsp;&nbsp;</a>
-						<a href="#about" class="btn btn-default btn-lg" style="margin-left:40px;">&nbsp;&nbsp;I might go&nbsp;&nbsp;</a>
-					</div>
-				</div>
+			</div>
+		</div>			
+</header>
 -->
-			</div>
-			</div>
-			
-		</header>
+
 <div class="container hmpTop">
 
       <div class="container">
@@ -50,13 +19,33 @@
 				<!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
 				<img class="img-responsive img-rounded" src="../../assets/img/reggaeinnatrap.jpg">
 			</div>
-			<div class="col-lg-3 col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+			<div class="col-lg-3 col-md-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
 				<strong>Want to compete?</strong>
 				<br/><?php echo Html::anchor('eventproducers/', 'Sign up here'); ?>
 				<br/>
-				<div style="margin-top:30px;"><strong>Want to see the show?</strong>
-				<br/>Sign up for updates
-				</div>
+									<div style="margin-top:30px;">
+						<strong>Want to see the show?</strong>
+						<br/>Sign up for updates
+						<?php echo Form::open(array("class"=>"form-inline")); ?>
+		            <div class="form-group" style="margin-top:15px; margin-bottom:15px;">
+					  <?php echo Form::input('fanemail', Input::post('fanemail', isset($fan) ? $fan->fanemail : ''), array('class' => 'form-control', 'placeholder'=>'email')); ?>
+					  <!-- <input type="text" class="form-control" placeholder="Email"> -->
+					</div>
+					<?php echo Form::submit('submit', 'Submit', array('class' => 'btn btn-warning navbar-inverse')); ?>
+					<!-- <button type="button" class="btn btn-primary navbar-inverse">Submit</button> -->
+	            <?php echo Form::close(); ?>
+						
+						<!--
+<form class="form-inline" role="form">
+
+						<div class="form-group" >
+							<input type="text" class="form-control" placeholder="Email">
+						</div>
+						<button type="button" class="btn btn-warning navbar-inverse">Submit</button>
+						</form>
+-->
+					</div>
+				
 			</div>
 		</div>
      </div>
@@ -64,13 +53,7 @@
 	     <div class="col-lg-8 col-sm-8"><br/><br/>
             <strong><?php echo $event->name; ?></strong><br/>
             <p><?php echo $event->desc; ?></p>
-			<!--
-<div class="col-md-offset-2" style="display:none;">
-				<a href="#about" class="btn btn-default btn-lg">&nbsp;&nbsp;I'm Going&nbsp;&nbsp;</a>
-				<a href="#about" class="btn btn-default btn-lg" style="margin-left:40px;">&nbsp;&nbsp;I might go&nbsp;&nbsp;</a>
-			</div>
--->
-          </div>
+	      </div>
           <div class="col-lg-3 col-sm-3 col-lg-offset-1 col-md-offset-1 col-sm-offset-1" style="margin-top:10px;">
           	<a href="http://maps.apple.com/?q=472+massachusetts+ave+cambridge+ma+02139" target="_blank"><i class="fa fa-map-marker" style="float:left; font-size:2em;padding-top:5px;"></i><h4 style="float:left;margin-left:5px;">Where</h4><div style="clear:both;"></div>
           	</a>
@@ -97,82 +80,129 @@
       </div>
     </div>
     <!-- /Callout -->
-      <div class="row text-center">
+    <div class="row text-center">
+    <h2>Stay tuned...</h2>
+    <h3>Competitors will be announced here</h3>
+    </div>
+    <div class="row text-center" style="margin-top:40px;">
+    			
+				<div class="col-lg-6 col-md-6 col-lg-offset-3 col-md-offset-3 text-center">
+						<strong>Want to see the show?</strong>
+						<br/>Sign up for updates
+						<?php echo Form::open(array("class"=>"form-inline")); ?>
+		            <div class="form-group" style="margin-top:15px; margin-bottom:15px;">
+					  <?php echo Form::input('fanemail', Input::post('fanemail', isset($fan) ? $fan->fanemail : ''), array('class' => 'form-control', 'placeholder'=>'email')); ?>
+					  <!-- <input type="text" class="form-control" placeholder="Email"> -->
+		            </div>
+					<?php echo Form::submit('submit', 'Submit', array('class' => 'btn btn-warning navbar-inverse')); ?>
+					<!-- <button type="button" class="btn btn-primary navbar-inverse">Submit</button> -->
+	            <?php echo Form::close(); ?>
+	</div>
+	</div>
+      <!--
+<div class="row text-center">
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/chase-n-cashe.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+            <!--
+<img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
 
-        <div class="col-lg-3 col-md-6 hero-feature">
+       <!--
+ <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+            <!--
+<img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
 
-        <div class="col-lg-3 col-md-6 hero-feature">
+        <!--
+<div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+           <!--
+ <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
+<!--
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/producer2.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+           <!--
+ <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
 
 
-      </div><!-- /.row -->
+     <!--  </div> --><!-- /.row -->
       
-      <div class="row text-center" style="margin-top:40px;">
+      <!--
+<div class="row text-center" style="margin-top:40px;">
 
         <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/producer3.jpg" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+            <!--
+<img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6 hero-feature">
+-->
+       <!--
+ <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/producer4.jpg" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+         <!--
+   <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
 
-        <div class="col-lg-3 col-md-6 hero-feature">
+      <!--
+  <div class="col-lg-3 col-md-6 hero-feature">
           <div class="thumbnail">
+-->
             <!-- <img src="/assets/img/harry-fraud-456.jpg" alt=""> -->
-            <img src="http://placehold.it/800x500" alt="">
+          <!--
+  <img src="http://placehold.it/800x500" alt="">
             <div class="caption">
               <h3>Producer</h3>   
            </div>
           </div>
         </div>
+-->
 
         <!--
 <div class="col-lg-3 col-md-6 hero-feature">
@@ -186,7 +216,7 @@
 -->
 
 
-      </div><!-- /.row -->
+     <!--  </div> --><!-- /.row -->
       
       <!--
 <hr>

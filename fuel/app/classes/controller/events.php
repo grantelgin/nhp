@@ -5,18 +5,47 @@ class Controller_Events extends Controller_Template{
 	{
 		$data['events'] = Model_Event::find('all');
 		$this->template->title = "Events";
-		$this->template->content = View::forge('events/index', $data);
+		$this->template->content = View::forge('welcome/index', $data);
 
 	}
 
 	public function action_view($id = null)
 	{
-		is_null($id) and Response::redirect('events');
+		is_null($id) and Response::redirect('welcome');
 
+		if (Input::method() == 'POST')
+		{
+			$val = Model_Fan::validate('addFan');
+			
+			if ($val->run())
+			{
+				$fan = Model_Fan::forge(array(
+					'fanemail' => Input::post('fanemail'),
+				));
+
+				if ($fan and $fan->save())
+				{
+					Session::set_flash('success', 'We will send an email to '.$fan->fanemail.' with updates soon.');
+
+					//Response::redirect('events/view/1');
+				}
+
+				else
+				{
+					Session::set_flash('error', 'Could not save your email address. Please try again later.');
+				}
+			}
+			else
+			{
+				Session::set_flash('error', ''.Input::post('fanemail').' is not a valid email. Please try again.');
+			}
+		}
+
+		
 		if ( ! $data['event'] = Model_Event::find($id))
 		{
 			Session::set_flash('error', 'Could not find event #'.$id);
-			Response::redirect('events');
+			Response::redirect('welcome');
 		}
 
 		$this->template->title = "Event";

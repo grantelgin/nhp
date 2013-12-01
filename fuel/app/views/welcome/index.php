@@ -55,7 +55,25 @@
       </ul>
     </div>
     <!-- /Side Menu --> 
-    
+
+<?php if (Session::get_flash('success')): ?>
+			<div class="alert alert-success" style="margin-top:50px;" >
+				<strong>Thanks for signing up</strong>
+				<p>
+				<?php echo implode('</p><p>', e((array) Session::get_flash('success'))); ?>
+				</p>
+			</div>
+<?php endif; ?>
+<?php if (Session::get_flash('error')): ?>
+			<div class="alert alert-danger" style="margin-top:50px;">
+				<strong>Uh oh! Something went wrong...</strong>
+				<p>
+				<?php echo implode('</p><p>', e((array) Session::get_flash('error'))); ?>
+				</p>
+			</div>
+<?php endif; ?>
+
+
     <!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="vert-text" style="padding-top:50px;">
@@ -121,52 +139,75 @@
           <div class="col-md-4 col-md-offset-4 text-center">
             <h2>What's Hot</h2>
             <hr>
+            <p>Coming soon - The hottest beats, producers, and shows</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-3 text-center">
+                 <div class="row" style="margin-top:20px;">
+          <div class="col-md-4 text-center">
             <div class="service-item"><a href="events/view/1" style="color:#fff;">
-              <!-- <i class="service-icon"><span>6</span> <span>MAR</span></i> -->
-              <i class="service-icon fa fa-calendar"></i>
+	          <i class="service-icon fa fa-calendar"></i>
               <h4>The Next Show</h4>
-              <p>Reggae inna trap house</p></a>
+              <!-- <p>Reggae inna trap house</p> --></a>
             </div>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-item"><a href="../#hotProducers" style="color:#fff;">
+          <div class="col-md-4 text-center">
+            <div class="service-item">
               <i class="service-icon glyphicon glyphicon-fire"></i>
-              <h4>Producer on Fire</h4>
-              <p>Link to producer profiles</p></a>
+            <h4>Producer on fire</h4>
+            
             </div>
           </div>
-          <div class="col-md-3 text-center">
-            <div class="service-item"><a href="../#topFive" style="color:#fff;">
+	  		<div class="col-md-4 text-center">
+            <div class="service-item">
               <i class="service-icon fa fa-volume-up"></i>
               <h4>The Beat Tapes</h4>
-              <p>Instrumental Compilation. Submit your own beats to share</p></a>
+        
             </div>
-          </div>          <div class="col-md-3 text-center">
+          </div>          
+          <!--
+<div class="col-md-3 text-center">
             <div class="service-item">
               <i class="service-icon fa fa-calendar"></i>
               <h4>Calendar of events coming up</h4>
               <p>Link to an awesome calendar</p>
             </div>
           </div>
+-->
         </div>
+          <div class="row">
+	          <div class="col-md-4 col-md-offset-4 text-center" style="margin-bottom:25px;">
+	            <?php echo Form::open(array("class"=>"form-inline")); ?>
+	            <!-- <form class="form-inline" role="form"> -->
+		            <h3>Sign up for updates</h3>
+		            <div class="form-group">
+					  <?php echo Form::input('fanemail', Input::post('fanemail', isset($fan) ? $fan->fanemail : ''), array('class' => 'form-control', 'placeholder'=>'email')); ?>
+					  <!-- <input type="text" class="form-control" placeholder="Email"> -->
+					</div>
+					<?php echo Form::submit('submit', 'Submit', array('class' => 'btn btn-primary')); ?>
+					<!-- <button type="button" class="btn btn-primary navbar-inverse">Submit</button> -->
+	            <?php echo Form::close(); ?>
+	        </div>
+	      </div>
+	      
+	      
+       
       </div>
     </div>
     <!-- /Services -->
     
     <!-- Callout -->
-    <div id="topFive" class="callout">
+    <!--
+<div id="topFive" class="callout">
       <div class="vert-text">
         <h1>Top 5 beats of the week</h1>
       </div>
     </div>
+-->
     <!-- /Callout -->
 
     <!-- Portfolio -->
-    <div id="hotProducers" class="portfolio">
+    <!--
+<div id="hotProducers" class="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
@@ -197,10 +238,12 @@
       </div>
 
     </div>
+-->
     <!-- /Portfolio -->
 
     <!-- Call to Action -->
-    <div class="call-to-action" style="background-color:#c23520;">
+ <!--
+   <div class="call-to-action" style="background-color:#c23520;">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
@@ -208,17 +251,20 @@
             <div class="input-group input-group-lg">
   <span class="input-group-addon" style="color:#000;">@</span>
   <input type="text" class="form-control" placeholder="Email">
+-->
   <!--
 <span class="input-group-btn">
         <button class="btn btn-default" type="button">Sign me up</button>
       </span>
 -->
+<!--
 </div>
 
           </div>
         </div>
       </div>
     </div>
+-->
     <!-- /Call to Action -->
 
     <!-- Map -->
@@ -233,9 +279,9 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <ul class="list-inline">
-              <li><a href="https://www.facebook.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
-              <li><a href="https://twitter.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="twitter"><i class="fa fa-twitter fa-3x" ></i></a></li>
-              <li><a href="http://instagram.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="instagram"><i class="fa fa-instagram fa-3x" ></i></a></li>
+              <li><a href="https://www.facebook.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="facebook.com/hotmusicpro"><i class="fa fa-facebook fa-3x"></i></a></li>
+              <li><a href="https://twitter.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="@hotmusicpro"><i class="fa fa-twitter fa-3x" ></i></a></li>
+              <li><a href="http://instagram.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="instagram.com/hotmusicpro"><i class="fa fa-instagram fa-3x" ></i></a></li>
             </ul>
             <!--
 <div class="top-scroll">

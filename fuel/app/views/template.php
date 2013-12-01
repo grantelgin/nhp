@@ -62,7 +62,7 @@
 
 	<div class="container">
 		<div class="col-md-12">
-			<h1><?php echo $title; ?></h1>
+			<h1><!-- <?php echo $title; ?> -->&nbsp;</h1>
 			<hr>
 <?php if (Session::get_flash('success')): ?>
 			<div class="alert alert-success">
@@ -73,7 +73,7 @@
 			</div>
 <?php endif; ?>
 <?php if (Session::get_flash('error')): ?>
-			<div class="alert alert-error">
+			<div class="alert alert-danger">
 				<strong>Error</strong>
 				<p>
 				<?php echo implode('</p><p>', e((array) Session::get_flash('error'))); ?>
@@ -91,9 +91,9 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
             <ul class="list-inline">
-              <li><a href="https://www.facebook.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="facebook"><i class="fa fa-facebook fa-3x"></i></a></li>
-              <li><a href="https://twitter.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="twitter"><i class="fa fa-twitter fa-3x" ></i></a></li>
-              <li><a href="http://instagram.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="instagram"><i class="fa fa-instagram fa-3x" ></i></a></li>
+              <li><a href="https://www.facebook.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="facebook.com/hotmusicpro"><i class="fa fa-facebook fa-3x"></i></a></li>
+              <li><a href="https://twitter.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="@hotmusicpro"><i class="fa fa-twitter fa-3x" ></i></a></li>
+              <li><a href="http://instagram.com/hotmusicpro" target="_blank" class="lnkSocial" data-placement="bottom" title="instagram.com/hotmusicpro"><i class="fa fa-instagram fa-3x" ></i></a></li>
             </ul>
             <!--
 <div class="top-scroll">

@@ -4,6 +4,45 @@ class Controller_EventProducers extends Controller_Template{
 	public function action_index()
 	{
 		$data['eventProducers'] = Model_EventProducer::find('all');
+		
+		if (Input::method() == 'POST')
+		{
+			$val = Model_Producer::validate('create');
+			
+			if ($val->run())
+			{
+				$producer = Model_Producer::forge(array(
+					/*
+'producer_id' => Input::post('producer_id'),
+					'name' => Input::post('name'),
+*/
+					'email' => Input::post('email'),
+					/*
+'phone' => Input::post('phone'),
+					'desc' => Input::post('desc'),
+					'address' => Input::post('address'),
+					'graphic_src' => Input::post('graphic_src'),
+*/
+				));
+
+				if ($producer and $producer->save())
+				{
+					Session::set_flash('success', 'We will send further instructions to '.$producer->email.' soon. ');
+
+					Response::redirect('eventproducers/index');
+				}
+
+				else
+				{
+					Session::set_flash('error', 'Could not save producer.');
+				}
+			}
+			else
+			{
+				Session::set_flash('error', $val->error());
+			}
+		}
+		
 		$this->template->title = "EventProducers";
 		$this->template->content = View::forge('eventproducers/index', $data);
 

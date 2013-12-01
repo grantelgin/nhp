@@ -30,8 +30,76 @@ class Controller_Welcome extends Controller
 	 */
 	public function action_index()
 	{
+		if (Input::method() == 'POST')
+		{
+			$val = Model_Fan::validate('addFan');
+			
+			if ($val->run())
+			{
+				$fan = Model_Fan::forge(array(
+					'fanemail' => Input::post('fanemail'),
+				));
+
+				if ($fan and $fan->save())
+				{
+					Session::set_flash('success', 'We will send an email to '.$fan->fanemail.' with updates soon.');
+
+					Response::redirect('welcome/index');
+				}
+
+				else
+				{
+					Session::set_flash('error', 'Could not save your email address. Please try again later.');
+				}
+			}
+			else
+			{
+				Session::set_flash('error', ''.Input::post('fanemail').' is not a valid email. Please try again.');
+			}
+		}
+
+		//$this->template->title = "Fans";
+		//$this->template->content = View::forge(View::forge('welcome/index'));
+
+		
 		return Response::forge(View::forge('welcome/index'));
 	}
+	
+	public function action_addFan()
+	{
+		if (Input::method() == 'POST')
+		{
+			$val = Model_Fan::validate('addFan');
+			
+			if ($val->run())
+			{
+				$fan = Model_Fan::forge(array(
+					'fanemail' => Input::post('fanemail'),
+				));
+
+				if ($fan and $fan->save())
+				{
+					Session::set_flash('success', 'Added fan #'.$fan->id.'.');
+
+					Response::redirect('fans');
+				}
+
+				else
+				{
+					Session::set_flash('error', 'Could not save fan.');
+				}
+			}
+			else
+			{
+				Session::set_flash('error', $val->error());
+			}
+		}
+
+		$this->template->title = "Fans";
+		$this->template->content = View::forge(View::forge('welcome/index'));
+
+	}
+
 
 	/**
 	 * A typical "Hello, Bob!" type example.  This uses a ViewModel to

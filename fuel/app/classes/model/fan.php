@@ -30,13 +30,16 @@ class Model_Fan extends Model
 	public static function validate($factory)
 	{
 		$val = Validation::forge($factory);
-		$val->add_field('fan_id', 'Fan Id', 'required|valid_string[numeric]');
-		$val->add_field('fanemail', 'Fanemail', 'required|max_length[255]');
-		$val->add_field('fanfirstname', 'Fanfirstname', 'required|max_length[255]');
+		/* $val->add_field('fan_id', 'Fan Id', 'required|valid_string[numeric]'); */
+		$val->add_field('fanemail', 'Fanemail', 'valid_email');
+		//$val->add('email', 'Email address')->add_rule('match_value', 'me@mydomain.com', true)->add_rule('valid_email');
+		/*
+$val->add_field('fanfirstname', 'Fanfirstname', 'required|max_length[255]');
 		$val->add_field('fanlastname', 'Fanlastname', 'required|max_length[255]');
 		$val->add_field('fanphone', 'Fanphone', 'required|max_length[255]');
 		$val->add_field('fanaddress', 'Fanaddress', 'required|max_length[255]');
 		$val->add_field('fangraphic_src', 'Fangraphic Src', 'required|max_length[255]');
+*/
 
 		return $val;
 	}

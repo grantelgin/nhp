@@ -1,15 +1,28 @@
+<div class="col-lg-8 col-md-8 col-lg-offset-2 col-md-offset-2 text-center">
+				<!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
+				<img class="img-responsive img-rounded" src="../../assets/img/reggaeinnatrap.jpg">
+			</div>
 <div class="container">
 	<div class="row">
 		<div class="col-lg-6 col-lg-offset-3"><br/><br/>
-			<?php echo Html::anchor('eventproducers/create', 'Sign up to compete', array('class' => 'btn btn-success btn-lg btn-block')); ?>
+		<h3 class="text-center">Want to compete? <br/><a href="#rules">Read the rules</a>, then enter your email here</h3>
+		<?php echo Form::open(array("class"=>"form-horizontal")); ?>
+		            <div class="form-group" style="margin-top:15px; margin-bottom:15px;">
+					  <?php echo Form::input('email', Input::post('email', isset($producer) ? $producer->email : ''), array('class' => 'form-control', 'placeholder'=>'email')); ?>
+					  <!-- <input type="text" class="form-control" placeholder="Email"> -->
+					</div>
+					<?php echo Form::submit('submit', 'Sign up to compete', array('class' => 'btn btn-success btn-lg btn-block')); ?>
+					<!-- <button type="button" class="btn btn-primary navbar-inverse">Submit</button> -->
+	            <?php echo Form::close(); ?>
+			
 			<br/><br/>
 		</div>
 	</div>
 </div>
 
 
-<div class="container">
-        <div class="row">
+<div id="rules" class="container">
+        <div  class="row">
           <div class="col-md-4 col-md-offset-4 text-center">
             <h1>The rules</h1>
             <hr>
@@ -137,7 +150,7 @@
 
 
 
-
+<div style="display:none;">
 <h2>Listing <span class='muted'>EventProducers</span></h2>
 <br>
 <?php if ($eventProducers): ?>
@@ -182,3 +195,4 @@
 	
 
 </p>
+</div>
