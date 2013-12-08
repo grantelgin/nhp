@@ -17,7 +17,7 @@
       	<div class="row">
         	<div class="col-lg-8 col-md-8 text-center">
 				<!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a> -->
-				<img class="img-responsive img-rounded" src="../../assets/img/reggaeinnatrap.jpg">
+				<img class="img-responsive img-rounded" src="../../assets/img/reggaeInnaTrap.jpg">
 			</div>
 			<div class="col-lg-3 col-md-6 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
 				<strong>Want to compete?</strong>

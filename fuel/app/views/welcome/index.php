@@ -74,11 +74,13 @@
 <div class="row">
         <div class="col-md-12 text-center wrapper"><a href="/events/view/1">
         <!-- <a href="#project-link"><img class="img-responsive img-rounded" src="/assets/img/reggae.jpg"></a>  -->
-        <img class="img-responsive img-rounded" src="../assets/img/reggaeinnatrap.jpg"></a>
-        <a href="http://www.mideastclub.com" target="_blank"><img class="melogo" src="../assets/img/MElogo.gif" height="80"></a>
-        <a href="https://www.facebook.com/higglewleaders" target="_blank"><img class="higgLogo" src="../assets/img/higgLew1.png" height="80">
+        <img class="img-responsive img-rounded" src="../assets/img/reggaeInnaTrap.jpg"></a>
+        <!-- <a href="http://www.mideastclub.com" target="_blank"><img class="melogo" src="../assets/img/MElogo.gif" height="80"></a> -->
+        <!--
+<a href="https://www.facebook.com/higglewleaders" target="_blank"><img class="higgLogo" src="../assets/img/higgLew1.png" height="80">
 	        <p class="higgText lead" style="color:#fff;">Higg-Lew Leaders<br/><small>Empowered by vision</small></p>
         </a>
+-->
         </div>
         </div>
         </div>
@@ -175,7 +177,7 @@
 					  <?php echo Form::input('fanemail', Input::post('fanemail', isset($fan) ? $fan->fanemail : ''), array('class' => 'form-control', 'placeholder'=>'email')); ?>
 					  <!-- <input type="text" class="form-control" placeholder="Email"> -->
 					</div>
-					<?php echo Form::submit('submit', 'Submit', array('class' => 'btn btn-primary')); ?>
+					<?php echo Form::submit('submit', 'Submit', array('class' => 'btn btn-primary navbar-inverse')); ?>
 					<!-- <button type="button" class="btn btn-primary navbar-inverse">Submit</button> -->
 	            <?php echo Form::close(); ?>
 	        </div>

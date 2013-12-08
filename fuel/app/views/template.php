@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
+          <a class="navbar-brand" href="../../"><img src="/assets/img/HMPBlack.png" alt="HMPBlack" class="hmpLogo"></a>
         </div> 
 
         <!-- Collect the nav links, forms, and other content for toggling -->

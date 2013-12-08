@@ -5,7 +5,7 @@
 <div class="container">
 	<div class="row">
 		<div class="col-lg-6 col-lg-offset-3"><br/><br/>
-		<h3 class="text-center">Want to compete? <br/><a href="#rules">Read the rules</a>, then enter your email here</h3>
+		<h3 class="text-center">Want to compete? <br/><a href="#rules">Read the Rules</a>, then enter your email here</h3>
 		<?php echo Form::open(array("class"=>"form-horizontal")); ?>
 		            <div class="form-group" style="margin-top:15px; margin-bottom:15px;">
 					  <?php echo Form::input('email', Input::post('email', isset($producer) ? $producer->email : ''), array('class' => 'form-control', 'placeholder'=>'email')); ?>
@@ -44,7 +44,27 @@
                     
 
                     <dd>
-                        For the first and second rounds of competition, the beats must contain a sample from a pre-approved list of reggae songs.
+                        For the first and second rounds of competition, the beats must contain a sample from <a onclick="javascript:$('#DIV_SongList').slideToggle();" style="cursor:pointer;">this pre-approved list of reggae songs.</a>
+                        <div id="DIV_SongList" class="panel panel-default" style="display:none;">
+	                        <div class="panel-heading">Pre-approved list of songs</div>
+							<div class="panel-body">
+								<ul class="list-group">
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=UEv-aXRpGVg">Barrington Levy - Black Roses</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=sW_ePQRvrKI">Beenie Man - Girls Dem Sugar</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=MAeqaOb_kJQ">Beenie Man - Memories</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=Ai7mzkZcRsw">Buju Banton - Driver</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=5OMhdFM3nA8">Buju Banton Feat. Red Rat - Love Dem Bad</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=vK3xWsONCRE">Capleton - Slew Dem</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=uNg1fciXGGk">Capleton-Tour</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=xlCmQcRPtRg&list=PLA175B375523BE886&index=19">Damian Marley - Welcome To Jamrock</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=YKlCEUngHB0">Gyptian - Hold Yuh</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=Y8MKLQs5ohs&list=PLA175B375523BE886&index=24">Mad Cobra - Flex</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=TmgId8jb28Y">Red Rat - That Girl (Shelly Ann)</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=eJT52Cu7VNU&list=PLA175B375523BE886&index=37">Richie Spice - Youths Dem Cold</a></li>
+									<li class="list-group-item"><a href="http://www.youtube.com/watch?v=AQ4TW5Z8eu0">Sean Paul - I'm Still in Love with You</a></li>
+								</ul>
+							</div>
+                        </div>
                     </dd>
                 <br>
 
@@ -92,7 +112,7 @@
                     
 
                     <dd>
-                        There is a panel of three judges. Rounds 1 and 2 are decided by majority vote. During round 3 the judges will choose the top two producers and the crowd’s cheers determine who is crowned the Next Hot Music Producer!
+                        There is a panel of three judges. Rounds 1 and 2 are decided by majority vote. During round 3 the judges will choose the top two producers and the crowd’s cheers determine who is crowned Boston's Next Hot Music Pro!
                     </dd>
                 
                 <br/>

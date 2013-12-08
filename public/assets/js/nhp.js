@@ -53,4 +53,8 @@ $(document).ready(function () {
 	   
    }
    
+   nhp.ShowSongs = function () {
+	   
+   }
+   
    
