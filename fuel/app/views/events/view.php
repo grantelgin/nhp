@@ -109,7 +109,7 @@
 		<div class="row mt centered">
 			<div class="col-lg-4">
 -->
-				<img src="../../assets/img/team/host.png" width="470" alt="Gianni" style="margin-left:-50px; margin-top:40px;" >
+				<img src="../../assets/img/team/latrell.png" alt="latrell" style="margin-left:-50px; margin-top:40px;" >
 				<div class="cardinfo">
 					<h4><b>LATRELL JAMES</b></h4>
 					<h6>PRODUCER/RECORDING ARTIST</h6>
@@ -125,7 +125,7 @@
 	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-4">
-				<img src="../../assets/img/team/merren.png" width="250" alt="Mark Merren" style="margin-left:-2px; margin-top:40px;" >
+				<img src="../../assets/img/team/mark.png" width="250" alt="Mark Merren" style="margin-left:-2px; margin-top:40px;" >
 				<div class="cardinfo">
 					<h4><b>MARK MERREN</b></h4>
 					<h6>EMCEE/PRODUCER</h6>
@@ -134,7 +134,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				<img src="../../assets/img/team/alex.png" width="250" alt="Dave Day" style="margin-left:-2px; margin-top:40px;">
+				<img src="../../assets/img/team/Dave5.jpg" width="250" alt="Dave Day" style="margin-left:-2px; margin-top:40px;">
 				<div class="cardinfo">
 					<h4><b>DAVE DAY</b></h4>
 					<h6>MMMMAVEN PROJECT</h6>
@@ -143,7 +143,7 @@
 				</div>
 			</div>
 			<div class="col-lg-4">
-				<img src="../../assets/img/team/merren.png" width="250" alt="Darcie Nicole" style="margin-left:-2px; margin-top:40px;">
+				<img src="../../assets/img/team/darcie.png" width="250" alt="Darcie Nicole" style="margin-left:-2px; margin-top:40px;">
 				<div class="cardinfo">
 					<h4><b>DARCIE NICOLE</b></h4>
 					<h6>VOCALIST/SONGWRITER/COACH</h6>
