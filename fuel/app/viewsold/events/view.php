@@ -99,65 +99,6 @@
 	            <?php echo Form::close(); ?>
 	</div>
 	</div>
-	<div style="background-color:#e5e5e5;border-top:#a6a6a6 1px solid;border-bottom:#a6a6a6 1px solid;">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-2 text-center">
-				<h1>Host</h1>
-				<!--
-<div class="container">
-		<div class="row mt centered">
-			<div class="col-lg-4">
--->
-				<img src="../../assets/img/team/host.png" width="470" alt="Gianni" style="margin-left:-50px; margin-top:40px;" >
-				<div class="cardinfo">
-					<h4><b>LATRELL JAMES</b></h4>
-					<h6>PRODUCER/RECORDING ARTIST</h6>
-					<p>Latrell James, formerly known as Sunni Carson, is a fresh developed recording artist and producer ready to be pushed to the worldwide market. He is also the co-founder of 5-Star Generals music production company as well as Scholar Camaraderie (an independent brand). Latrell James always had the passion for music; writing lyrics, poetry and producing beats since the young age of seven. James is an exceptional recording artist where words cannot explain his ability on the microphone or behind any production workstation. Since the establishment of his independent brand, Scholar Camaraderie in December 2011, Latrell James has been consistently performing at venues like West End Johnnies, Church of Boston, Middle East Downstairs, Webster Hall in New York City and many more. He has released two projects in 2011: his mixtapes, the "Sunni Carson Project" and "The Initiation", feature lead singles: "When I'm On" (Sunni Cason Project/The Initiation), "Geesh”, "Another Go" and “Where Were You At”. 
-</p>
-					<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
-				</div>
-			<!-- </div></div></div> -->
-			</div>
-			<div class="col-lg-offset-1 col-lg-9 text-center">
-				<h1>Judges</h1>
-				<!-- TEAM MEMBERS -->
-	<div class="container">
-		<div class="row mt centered">
-			<div class="col-lg-4">
-				<img src="../../assets/img/team/merren.png" width="250" alt="Mark Merren" style="margin-left:-2px; margin-top:40px;" >
-				<div class="cardinfo">
-					<h4><b>MARK MERREN</b></h4>
-					<h6>EMCEE/PRODUCER</h6>
-					<p>Mark Merren is an emcee/producer from Dorchester in Boston,MA. He is a well seasoned artist that has been performing & recording music since his childhood. His concious witty lyricism & wordplay bridges the gap between underground and mainstream audiences alike. Mark hosts the hottest hip-hop showcase in Boston, Motivate Mondays at Church Boston, the best place for upcoming talent.</p>
-					<p><a href="https://www.facebook.com/pages/Mark-Merren-Music/153107458064163" target="_blank" class="lnkSocial" title="Mark Merren Music" data-placement="bottom"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/MARKMERREN" target="_blank" class="lnkSocial" title="@MARKMERREN" data-placement="bottom"><i class="fa fa-twitter"></i></a></p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<img src="../../assets/img/team/alex.png" width="250" alt="Dave Day" style="margin-left:-2px; margin-top:40px;">
-				<div class="cardinfo">
-					<h4><b>DAVE DAY</b></h4>
-					<h6>MMMMAVEN PROJECT</h6>
-					<p>With over 20 years in the music industry, David Day has worn many different hats: label manager, editor, music journalist, retail, distribution, you name it. Most recently, here in Boston, he founded the Together Festival, Boston's springtime celebration of Music, Art and Technology (now in year 5) and remains the festival's Creative Director. Two years ago, he co-founded the Mmmmaven Project, an educational initiative in Central Square, Cambridge, where he serves as Director, managing marketing, social media and human resources.</p>
-					<p><a href="https://www.facebook.com/MMMMAVEN" target="_blank" class="lnkSocial" title="Mmmmaven Project" data-placement="bottom"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/mmmmaven" target="_blank" class="lnkSocial" title="Mmmmaven Project" data-placement="bottom"><i class="fa fa-twitter"></i></a></p>
-				</div>
-			</div>
-			<div class="col-lg-4">
-				<img src="../../assets/img/team/merren.png" width="250" alt="Darcie Nicole" style="margin-left:-2px; margin-top:40px;">
-				<div class="cardinfo">
-					<h4><b>DARCIE NICOLE</b></h4>
-					<h6>VOCALIST/SONGWRITER/COACH</h6>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
-					<p><a href="https://www.facebook.com/askdarcie" target="_blank" class="lnkSocial" title="Darcie Nicole" data-placement="bottom"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/AskDarcie" target="_blank" class="lnkSocial" title="@ASKDARCIE" data-placement="bottom"><i class="fa fa-twitter"></i></a></p>
-				</div>
-			</div>
-		</div><!-- row -->
-	</div><!-- container -->
-			</div>
-		</div>
-	</div>
-		
-	</div>
       <!--
 <div class="row text-center">
 

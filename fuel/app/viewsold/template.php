@@ -47,7 +47,7 @@
           </div>
     <!-- /Side Menu --> 
 
-	<div>
+	<div class="container">
 		<div class="col-md-12">
 			<h1><!-- <?php echo $title; ?> -->&nbsp;</h1>
 			<hr>
@@ -68,7 +68,7 @@
 			</div>
 <?php endif; ?>
 		</div>
-		<div>
+		<div class="col-md-12">
 <?php echo $content; ?>
 		</div>
 		

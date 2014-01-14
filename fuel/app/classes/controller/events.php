@@ -58,6 +58,13 @@ class Controller_Events extends Controller_Template{
 		$this->template->title = "Rules";
 		$this->template->content = View::forge('events/rules');
 	}
+	
+	public function action_judges()
+	{
+		$this->template->title = "Judges";
+		$this->template->content = View::forge('events/judges');
+
+	}
 
 	public function action_create()
 	{
