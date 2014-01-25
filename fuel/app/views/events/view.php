@@ -10,6 +10,13 @@
 		</div>			
 </header>
 -->
+<?php echo Asset::css(array('//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css')); ?>
+      <?php echo Asset::js(array(
+		'jquery.js',
+		'//code.jquery.com/ui/1.10.4/jquery-ui.js',
+		'bootstrap.js',
+		'nhp.js',
+	)); ?>
 
 <div class="container hmpTop">
 
@@ -100,26 +107,26 @@
 	</div>
 	</div>
 	<div style="background-color:#e5e5e5;border-top:#a6a6a6 1px solid;border-bottom:#a6a6a6 1px solid;">
-	<div class="container">
+	<div class="container" style="padding-bottom:30px;">
 		<div class="row">
-			<div class="col-lg-2 text-center">
-				<h1>Host</h1>
+			<div class="col-lg-3 text-center">
+				<h1 style="margin-left:-50px;">Host</h1>
 				<!--
 <div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-4">
 -->
 				<img src="../../assets/img/team/latrell.png" alt="latrell" style="margin-left:-50px; margin-top:40px;" >
-				<div class="cardinfo">
+				<div class="cardinfo" style="margin-left:-50px;">
 					<h4><b>LATRELL JAMES</b></h4>
 					<h6>PRODUCER/RECORDING ARTIST</h6>
 					<p>Latrell James, formerly known as Sunni Carson, is a fresh developed recording artist and producer ready to be pushed to the worldwide market. He is also the co-founder of 5-Star Generals music production company as well as Scholar Camaraderie (an independent brand). Latrell James always had the passion for music; writing lyrics, poetry and producing beats since the young age of seven. James is an exceptional recording artist where words cannot explain his ability on the microphone or behind any production workstation. Since the establishment of his independent brand, Scholar Camaraderie in December 2011, Latrell James has been consistently performing at venues like West End Johnnies, Church of Boston, Middle East Downstairs, Webster Hall in New York City and many more. He has released two projects in 2011: his mixtapes, the "Sunni Carson Project" and "The Initiation", feature lead singles: "When I'm On" (Sunni Cason Project/The Initiation), "Geesh”, "Another Go" and “Where Were You At”. 
 </p>
-					<p><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-envelope"></i></a></p>
+					<p><a href="https://www.facebook.com/latrelljamesmusic" target="_blank" class="lnkSocial" title="Latrell James Music" data-placement="bottom"><i class="fa fa-facebook"></i></a><a href="http://twitter.com/iamlatrelljames" target="_blank" class="lnkSocial" title="@iamlatrelljames" data-placement="bottom"><i class="fa fa-twitter"></i></a></p>
 				</div>
 			<!-- </div></div></div> -->
 			</div>
-			<div class="col-lg-offset-1 col-lg-9 text-center">
+			<div class="col-lg-9 text-center">
 				<h1>Judges</h1>
 				<!-- TEAM MEMBERS -->
 	<div class="container">
@@ -156,8 +163,50 @@
 			</div>
 		</div>
 	</div>
-		
+	<div style="background-color:#d9d9d9;padding-bottom:30px;">
+	<div class="container" style="margin-left:50px;">
+	<div class="row centered" >
+		<div class="col-md-12 text-center">
+			<h1>Prizes</h1>
+		</div>
 	</div>
+	<div class="row centered">
+	<div class="col-md-10 col-md-offset-1 text-center wrapper">
+	<iframe src="http://player.vimeo.com/video/84995260?api=1&player_id=vimeoplayer" width="100%" height="480px"></iframe>
+	<div class="cardinfo"><a href="http://vimeo.com/15213281" target="_blank">
+				<h4><b>1ST PLACE PRIZE:</b></h4>
+				<h6>MUSIC VIDEO PRODUCED BY AWARD WINNING DIRECTOR DARREN COLE</h6>
+	</a>
+				</div>
+	</div>
+	
+	</div>
+	<br/><br/>
+		<div class="row mt centered">
+			<div class="col-lg-4"><a href="http://uturnaudio.com/" target="_blank">
+				<img class="img-rounded" src="../../assets/img/uTurnAudio.png" alt="uTurnAudio"/>
+				<div class="cardinfo">
+				<h4><b>1ST PLACE PRIZE: </b></h4>
+				<h6>U-TURN AUDIO TURN TABLE</h6>
+				</div></a>
+			</div>
+			<div class="col-lg-4"><a href="http://www.rosienevins.com/" target="_blank">
+				<img class="img-rounded" src="../../assets/img/camera.png" alt="Rosie Nevins Photography"  />
+				<div class="cardinfo">
+				<h4><b>2ND PLACE PRIZE: </b></h4>
+				<h6>PHOTOGRAPHY BY ROSIE NEVINS</h6>
+				</div></a>
+			</div>
+			<div class="col-lg-4"><a href="http://www.guitarcenter.com/" target="_blank">
+				<img class="img-rounded" style="margin:28.5px 0px;" src="../../assets/img/guitarCenter.png" alt="Guitar Center"  />
+				<div class="cardinfo">
+				<h4><b>2ND PLACE PRIZE: </b></h4>
+				<h6>$ 75 GIFT CERTIFICATE TO GUITAR CENTER</h6>
+				</div></a>
+			</div>
+		</div>
+		</div>
+	</div></div>
       <!--
 <div class="row text-center">
 
@@ -288,10 +337,6 @@
         </div>
       </footer>
 -->
-      <?php echo Asset::js(array(
-		'jquery.js',
-		'bootstrap.js',
-		'nhp.js'
-	)); ?>
+
       
     </div><!-- /.container -->
