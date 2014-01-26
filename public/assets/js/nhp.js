@@ -2,6 +2,9 @@ nhp = new Object();
 
 
 $(document).ready(function () {
+		
+		$('[data-toggle="tab"]').click(function () {$('.tab-pane.active').hide(); var x=$(this).attr('data-tab'); $('#'+x).fadeIn('fast').addClass('active');});
+
         $("#menu-close").click(function(e) {
             e.preventDefault();
             $("#sidebar-wrapper").toggleClass("active");

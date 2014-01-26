@@ -17,7 +17,15 @@
 		'bootstrap.js',
 		'nhp.js',
 	)); ?>
-
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="tabs" data-tabs="tabs" style="margin-left:50px;">
+  <li><a id="tab1" data-tab="eventDetails" data-toggle="tab">The Event</a></li>
+  <li><a id="tab2" data-tab="lineUpDetails" data-toggle="tab">Producers</a></li>
+  <li><a id="tab3" data-tab="judgesDetails" data-toggle="tab">Judges</a></li>
+  <li><a id="tab4" data-tab="prizesDetails" data-toggle="tab">Prizes</a></li>
+</ul>
+<div class="tab-content">
+<div id="eventDetails" class="tab-pane active">
 <div class="container hmpTop">
 
       <div class="container">
@@ -69,7 +77,7 @@
 		  	<br/>472 Massachusetts Ave
 		  	<br/>Cambridge, MA 02139
 		  	<br/>
-		  	<br/><strong>Show:  6pm</strong>
+		  	<br/><strong>Show:  8pm<br/>March 18, 2014</strong>
 		  	</address>
 		  	<address><abbr title="Phone">P: </abbr> (662) 588 - 4537
 		  	<br/><abbr title="Email">E: </abbr> <a href="mailto:mike@hotmusicpro.com">mike@hotmusicpro.com</a>
@@ -79,7 +87,8 @@
      </div>
       
       <hr>
-      
+</div>
+<div id="lineUpDetails" class="tab-pane" style="display:none;">   
       <!-- Callout -->
     <div class="callout" style="height:100px;margin-bottom:20px;">
       <div class="vert-text">
@@ -106,7 +115,8 @@
 	            <?php echo Form::close(); ?>
 	</div>
 	</div>
-	<div style="background-color:#e5e5e5;border-top:#a6a6a6 1px solid;border-bottom:#a6a6a6 1px solid;">
+</div>
+<div id="judgesDetails" class="tab-pane" style="display:none;background-color:#e5e5e5;border-top:#a6a6a6 1px solid;border-bottom:#a6a6a6 1px solid;">
 	<div class="container" style="padding-bottom:30px;">
 		<div class="row">
 			<div class="col-lg-3 text-center">
@@ -160,10 +170,10 @@
 			</div>
 		</div><!-- row -->
 	</div><!-- container -->
-			</div>
+			</div></div>
 		</div>
 	</div>
-	<div style="background-color:#d9d9d9;padding-bottom:30px;">
+<div id="prizesDetails" class="tab-pane" style="background-color:#d9d9d9;padding-bottom:30px;display:none;">
 	<div class="container" style="margin-left:50px;">
 	<div class="row centered" >
 		<div class="col-md-12 text-center">
@@ -172,7 +182,7 @@
 	</div>
 	<div class="row centered">
 	<div class="col-md-10 col-md-offset-1 text-center wrapper">
-	<iframe src="http://player.vimeo.com/video/84995260?api=1&player_id=vimeoplayer" width="100%" height="480px"></iframe>
+	<iframe id="ytplayer" type="text/html" width="100%" height="480px" src="https://www.youtube.com/embed/fmfVPR8m96k" frameborder="0" allowfullscreen></iframe>
 	<div class="cardinfo"><a href="http://vimeo.com/15213281" target="_blank">
 				<h4><b>1ST PLACE PRIZE:</b></h4>
 				<h6>MUSIC VIDEO PRODUCED BY AWARD WINNING DIRECTOR DARREN COLE</h6>
@@ -207,6 +217,8 @@
 		</div>
 		</div>
 	</div></div>
+	
+</div>
       <!--
 <div class="row text-center">
 
