@@ -107,6 +107,11 @@ body {
 
 /* HMP Specific classes */
 
+.producer {
+	margin-bottom: 10px;
+}
+
+
 .lnkSocial {
 	color:#000;
 }
@@ -426,6 +431,8 @@ line-height: 37.5px;
 	display:none;
 }
 
-
+.producer {
+	margin-bottom: 10px;
+}
 
 }
