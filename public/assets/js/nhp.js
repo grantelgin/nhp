@@ -49,6 +49,18 @@ $(document).ready(function () {
    
    $('.lnkSocial').tooltip();
    
+   /*
+$('.producer').hover(function () {
+	   $(this).find('img').hide();
+	   $(this).find('iframe').show();   
+   }, function () {
+	   $(this).find('img').show();
+	   $(this).find('iframe').hide(); 
+   });
+*/
+   
+   
+   
    }); //end of docReady
    
    nhp.ShowButtons = function() {

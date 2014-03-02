@@ -386,6 +386,30 @@ i.scroll {
 i.scroll:hover {
   color: #0a5175;
 }
+
+@media (max-width: 800px) {
+
+.caption h4 {
+	font-size: 85%;
+}
+}
+
+@media (max-width: 580px) {
+
+.caption h4 {
+	font-size: 65%;
+}
+}
+
+@media (max-width: 400px) {
+
+.caption h4 {
+	font-size: 45%;
+}
+}
+
+
+
 /* Responsive */
 
 @media (max-width: 768px) {

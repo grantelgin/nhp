@@ -99,7 +99,7 @@
     <!-- <div class="container"> -->
     <div class="row text-center">
 
-        <div class="col-lg-3 col-lg-offset-3 col-md-6 hero-feature producer">
+        <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
 
             <!-- <img src="/assets/img/chase-n-cashe.jpg" style="width:100%; height:100%;" alt=""> -->
@@ -109,7 +109,7 @@
            </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 hero-feature producer">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
 
             <!-- <img src="/assets/img/chase-n-cashe.jpg" style="width:100%; height:100%;" alt=""> -->
@@ -122,58 +122,7 @@
 
     </div>
     <div class="row text-center">
-        <div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="../../assets/img/team/G_dan_mac.png" alt="dan_mac" width="800" />
-            <div class="caption">
-              <h4>DAN MAC</h4> 
-           </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-
-            <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
-           <img src="../../assets/img/team/G_deskhop.png" alt="deskhop" width="800" />
-            <div class="caption">
-              <h4>DESKHOP</h4>
-
-           </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="../../assets/img/team/G_evilldewer2.png" alt="evilldewer2" width="800" />
-            <div class="caption">
-              <h4>EVIL DEWER</h4>  
-           </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-
-            <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
-            <img src="../../assets/img/team/G_headphaze.png" alt="headphaze" width="800" />
-            <div class="caption">
-              <h4>HEADPHAZE</h4> 
-           </div>
-          </div>
-        </div>
-<div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="../../assets/img/team/G_JonGlass.png" alt="JonGlass" width="800"  />
-            <div class="caption">
-              <h4>JON GLASS</h4> 
-           </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 hero-feature producer">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
 
             <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
@@ -181,20 +130,9 @@
             <div class="caption">
               <h4>LIGHT FOOT</h4>
            </div>
-          </div>
+<iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/132545475&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>          </div>
         </div>
-<div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="../../assets/img/team/G_Moduloktopus_Logo_Large.png" alt="Moduloktopus_Logo_Large" width="800" />
-            <div class="caption">
-              <h4>MODULOKTOPUS</h4>
- 
-           </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6 hero-feature producer">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
 
             <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
@@ -202,57 +140,132 @@
             <div class="caption">
               <h4>MR FRITZ</h4> 
            </div>
-          </div>
+<iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9058350&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>          </div>
         </div>
-<div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
-            <img src="../../assets/img/team/G_PulseFX.png" alt="PulseFX%20photo" width="800" 
-            <div class="caption">
-              <h4>PULSE FX</h4>
-           </div>
-          </div>
-        
-
-        <div class="col-lg-3 col-md-6 hero-feature producer">
-          <div class="thumbnail">
-            <img src="../../assets/img/team/G_robertmathis.png" alt="robert%20mathis" width="800" />
-            <div class="caption">
-              <h4>ROBERT MATHIS</h4> 
-           </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 hero-feature producer">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
             <img src="../../assets/img/team/G_TeddyRoxpin.png" alt="TeddyRoxpin" width="800" />
             <div class="caption">
               <h4>TEDDY ROXPIN</h4> 
            </div>
+<iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/40812688&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>          </div>
+        </div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="../../assets/img/team/G_evilldewer2.png" alt="evilldewer2" width="800" />
+            <div class="caption">
+              <h4>EVIL DEWER</h4>  
+           </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>           
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 hero-feature producer">
+		</div>
+		<div class="row text-center">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="../../assets/img/team/G_dan_mac.png" alt="dan_mac" width="800" />
+            <div class="caption">
+              <h4>DAN MAC</h4> 
+           </div>
+<iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/92165891&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
+           <img src="../../assets/img/team/G_deskhop.png" alt="deskhop" width="800" />
+            <div class="caption">
+              <h4>DESKHOP</h4>
+
+           </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
+
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+
+            <!-- <img src="/assets/img/sha.jpeg" style="width:100%; height:100%;" alt=""> -->
+            <img src="../../assets/img/team/G_headphaze.png" alt="headphaze" width="800" />
+            <div class="caption">
+              <h4>HEADPHAZE</h4> 
+           </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
+          </div>
+        </div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="../../assets/img/team/G_JonGlass.png" alt="JonGlass" width="800"  />
+            <div class="caption">
+              <h4>JON GLASS</h4> 
+           </div>
+<iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/134757606&amp;auto_play=false&amp;hide_related=false&amp;visual=true"></iframe>          </div>
+        </div>
+		</div>
+		<div class="row text-center">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="../../assets/img/team/G_Moduloktopus_Logo_Large.png" alt="Moduloktopus_Logo_Large" width="800" />
+            <div class="caption">
+              <h4>MODULOKTOPUS</h4>
+ 
+           </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <!-- <img src="/assets/img/producer1.jpg" style="width:100%; height:100%;" alt=""> -->
+            <img src="../../assets/img/team/G_PulseFX.png" alt="PulseFX%20photo" width="800" />
+            <div class="caption">
+              <h4>SONICK</h4>
+           </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
+          <div class="thumbnail">
+            <img src="../../assets/img/team/G_robertmathis.png" alt="robert%20mathis" width="800" />
+            <div class="caption">
+              <h4>ROBERT MATHIS</h4> 
+           </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
             <img src="../../assets/img/team/G_wesmitch.png" alt="wesmitch" width="800" />
             <div class="caption">
               <h4>WES MITCH</h4> 
            </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
           </div>
         </div>
 </div>
 <div class="row text-center">
-        <div class="col-lg-3 col-lg-offset-3 col-md-6 hero-feature producer">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-lg-offset-3 col-md-offset-3 col-sm-offset-3 col-xs-offset-3 hero-feature producer">
           <div class="thumbnail">
             <img src="../../assets/img/team/G_YungHomie.png" alt="YungHomie" width="800"  />
             <div class="caption">
               <h4>YUNG HOMIE</h4> 
            </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
           </div>
-        </div><div class="col-lg-3 col-md-6 hero-feature producer">
+        </div><div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 hero-feature producer">
           <div class="thumbnail">
             <img src="../../assets/img/team/G_ZaidT.png" alt="ZaidT" width="800"  />
             <div class="caption">
               <h4>ZAID TABANI</h4> 
            </div>
+           <iframe style="display:none;" width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23010894&amp;auto_play=false&amp;hide_related=false&amp;visual=true&show_comments=false"></iframe>
           </div>
     <!--     </div> -->
 
